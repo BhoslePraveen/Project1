@@ -9,8 +9,10 @@ public class ArrayListDemo {
 		al.add(12);
 		al.add(15);
 		al.add(20);
-		
-		System.out.println(al);
+
+		for (Integer num : al) {
+			System.out.println(num);
+		}
 
 	}
 
